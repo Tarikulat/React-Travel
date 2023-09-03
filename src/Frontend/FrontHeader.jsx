@@ -2,9 +2,9 @@ import React from 'react'
 import './Style.css'
 import {NavLink} from 'react-router-dom'
 
-
-const Navbar = () => {
+const FrontHeader = () => {
   return (
+    <>
     <nav>
         <NavLink to="/" className="nav-link">Home</NavLink>
         <NavLink to="/blog" className="nav-link">Services</NavLink>
@@ -13,12 +13,8 @@ const Navbar = () => {
         <NavLink to="/about" className="nav-link">About</NavLink>
         <NavLink to="/login" className="nav-link">Login</NavLink>
     </nav>
-   
+    </>
   )
 }
 
-
-export default Navbar
-
-
-    
+export default FrontHeader

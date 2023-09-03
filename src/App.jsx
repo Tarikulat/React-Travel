@@ -13,11 +13,12 @@ import Booking from './pages/Booking'
 import Login from './pages/Login'
 import Footer from './components/Footer'
 
+import FrontHome from './Frontend/FrontHome'
+
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/blog" element={<Blog/>} />
@@ -26,15 +27,9 @@ function App() {
         <Route path="/booking" element={<Booking/>} />
         <Route path="/login" element={<Login/>} />
 
-        
-
-
-       
-
-
-        
+        <Route path="/hha" element={<FrontHome/>} />
+ 
       </Routes>
-
       <Footer />
     </BrowserRouter>
   )

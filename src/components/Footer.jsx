@@ -15,9 +15,9 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-md-6">
                 <h4 className="text-white mb-3">Contact</h4>
-                <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                <p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
+                <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Mirpur-2, Dhaka Bangladesh</p>
+                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>01793 800 828</p>
+                <p className="mb-2"><i className="fa fa-envelope me-3"></i>tarikulat124@gmail.com</p>
                 <div className="d-flex pt-2">
                     <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
                     <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
@@ -29,22 +29,22 @@ const Footer = () => {
                 <h4 className="text-white mb-3">Gallery</h4>
                 <div className="row g-2 pt-2">
                     <div className="col-4">
-                        <img className="img-fluid bg-light p-1" src="1a.png" alt="" />
+                        <img className="img-fluid bg-light p-1" src="src/assets/img/package-1.jpg" alt="" />
                     </div>
                     <div className="col-4">
-                        <img className="img-fluid bg-light p-1" src="1a.png" alt="" />
+                        <img className="img-fluid bg-light p-1" src="src/assets/img/package-2.jpg" alt="" />
                     </div>
                     <div className="col-4">
-                        <img className="img-fluid bg-light p-1" src="1a.png" alt="" />
+                        <img className="img-fluid bg-light p-1" src="src/assets/img/package-3.jpg" alt="" />
                     </div>
                     <div className="col-4">
-                        <img className="img-fluid bg-light p-1" src="1a.png" alt="" />
+                        <img className="img-fluid bg-light p-1" src="src/assets/img/package-1.jpg" alt="" />
                     </div>
                     <div className="col-4">
-                        <img className="img-fluid bg-light p-1" src="1a.png" alt="" />
+                        <img className="img-fluid bg-light p-1" src="src/assets/img/package-2.jpg" alt="" />
                     </div>
                     <div className="col-4">
-                        <img className="img-fluid bg-light p-1" src="1a.png" alt="" />
+                        <img className="img-fluid bg-light p-1" src="src/assets/img/package-3.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -62,10 +62,10 @@ const Footer = () => {
         <div className="copyright">
             <div className="row">
                 <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a className="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                    &copy; <a className="border-bottom" href="#">Your Site Name</a>,Travel
 
           
-                    Designed By <a className="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    Designed By <a className="border-bottom" href="#">Md Tarikul Islam</a>
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                     <div className="footer-menu">

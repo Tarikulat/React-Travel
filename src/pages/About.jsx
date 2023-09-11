@@ -55,14 +55,14 @@ const About = () => {
         <div class="card">
           <img src="public/aboutpic.png" class="card-img-top" alt="..." />
           <div class="position-relative d-flex justify-content-center">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
+            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="text-center p-4">
+            <h5 class="mb-0">Full Name</h5>
+            <small>Designation</small>
+          </div>
 
         </div>
 
@@ -94,6 +94,95 @@ const About = () => {
         </div>
 
       </div>
+
+
+
+
+
+
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
+            <h1 class="mb-5">Contact For Any Query</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <h5>Get In Touch</h5>
+              <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos</p>
+              <div class="d-flex align-items-center mb-4">
+                <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ width: "50px", height: "50px" }}>
+                  <i class="fa fa-map-marker-alt text-white"></i>
+                </div>
+                <div class="ms-3">
+                  <h5 class="text-primary">Office</h5>
+                  <p class="mb-0">123 Street, Mirpur, Dhaka</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mb-4">
+                <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ width: "50px", height: "50px" }}>
+                  <i class="fa fa-phone-alt text-white"></i>
+                </div>
+                <div class="ms-3">
+                  <h5 class="text-primary">Mobile</h5>
+                  <p class="mb-0">01793 800 828</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ width: "50px", height: "50px" }}>
+                  <i class="fa fa-envelope-open text-white"></i>
+                </div>
+                <div class="ms-3">
+                  <h5 class="text-primary">Email</h5>
+                  <p class="mb-0">tarikulat124@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <iframe class="position-relative rounded w-100 h-100"
+                src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=JoomShaper,+Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=joomshaper&amp;sll=37.0625,-95.677068&amp;sspn=42.766543,80.332031&amp;ie=UTF8&amp;hq=JoomShaper,&amp;hnear=Dhaka,+Dhaka+Division,+Bangladesh&amp;ll=23.73854,90.385504&amp;spn=0.001515,0.002452&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=1073661719450182870&amp;output=embed"
+                frameborder="0" style={{ height: "300px", border: "0" }} allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+
+
+            <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="name" placeholder="Your Name" />
+                      <label for="name">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="email" placeholder="Your Email" />
+                      <label for="email">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="subject" placeholder="Subject" />
+                      <label for="subject">Subject</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="Leave a message here" id="message" style={{ height: "100px" }}></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </>
   )

@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+
 :root {
     --primary: #86B817;
     --secondary: #FE8800;
@@ -23,7 +23,6 @@
 }
 
 
-/*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;

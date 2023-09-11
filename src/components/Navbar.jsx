@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav>
         <NavLink to="/" className="nav-link">Home</NavLink>
-        <NavLink to="/blog" className="nav-link">Services</NavLink>
+        <NavLink to="/services" className="nav-link">Services</NavLink>
         <NavLink to="/package" className="nav-link">Package</NavLink>
         <NavLink to="/booking" className="nav-link">Booking</NavLink>
         <NavLink to="/about" className="nav-link">About</NavLink>
@@ -16,7 +16,6 @@ const Navbar = () => {
    
   )
 }
-
 
 export default Navbar
 
